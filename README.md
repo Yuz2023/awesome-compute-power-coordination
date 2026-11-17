@@ -9,6 +9,8 @@ Most lists in this space collect papers. This one deliberately does not. It trac
 **Related lists by the same maintainer** (entries there are not repeated here):
 - [awesome-large-load-grid](https://github.com/Yuz2023/awesome-large-load-grid) — regulations, dockets and task forces on large-load interconnection (process, cost allocation, policy).
 - [awesome-aidc-modeling](https://github.com/Yuz2023/awesome-aidc-modeling) — papers, datasets, simulators and patents on AI data center power modeling.
+- [Awesome-MCP-for-Power-Engineering](https://github.com/Yuz2023/Awesome-MCP-for-Power-Engineering) — Model Context Protocol servers for power engineering research and applications.
+- [awesome-PELS-open-source-ai-tools](https://github.com/Yuz2023/awesome-PELS-open-source-ai-tools) — open-source AI tools for power electronics.
 
 ## Contents
 
@@ -243,7 +245,7 @@ Title in English translation, with the Chinese title as filed. Year is the filin
 
 All rows are **R**: repository existence, license and description were read from the GitHub API on the "last updated" date.
 
-Not repeated here because they are already in [awesome-aidc-modeling](https://github.com/Yuz2023/awesome-aidc-modeling#tools--simulators): Zeus, Vessim and the OpenG2G paper.
+Not repeated here because they are already in [awesome-aidc-modeling](https://github.com/Yuz2023/awesome-aidc-modeling#tools--simulators): Zeus, Vessim, ExaDigiT/RAPS, Google cluster-data and the OpenG2G paper.
 
 ### Grid-signal-aware scheduling
 
@@ -270,7 +272,6 @@ Not repeated here because they are already in [awesome-aidc-modeling](https://gi
 - **[gpu2grid/openg2g](https://github.com/gpu2grid/openg2g)** — Apache-2.0. Simulation library for AI data-center and distribution-grid interaction: trace-replay or live-GPU data-center backend, OpenDSS grid model, and controllers such as batch-size control for voltage regulation.
 - **[gpu2grid/live](https://github.com/gpu2grid/live)** — No license. Injects H100 LLM inference and training power profiles into the IEEE 13-bus feeder and solves with OpenDSS; built on openg2g.
 - **[dos-group/lets-wait-awhile](https://github.com/dos-group/lets-wait-awhile)** — No license. Simulator and datasets for carbon-aware temporal workload shifting.
-- **[ExaDigiT/RAPS](https://github.com/ExaDigiT/RAPS)** — Apache-2.0. Replays or models supercomputer workloads and predicts the resulting facility power.
 - **[atlarge-research/opendc](https://github.com/atlarge-research/opendc)** — MIT. Data-center simulator with power and energy models.
 - **[HewlettPackard/dc-rl](https://github.com/HewlettPackard/dc-rl)** — MIT. SustainDC: multi-agent reinforcement-learning environments for workload shifting, cooling and battery control.
 - **[facebookresearch/CarbonExplorer](https://github.com/facebookresearch/CarbonExplorer)** — Evaluates combinations of renewables, storage and load shifting for running data centers on renewable energy.
@@ -285,7 +286,6 @@ Not repeated here because they are already in [awesome-aidc-modeling](https://gi
 
 Useful for studying how jobs map onto machines, and from there onto power domains.
 
-- **[google/cluster-data](https://github.com/google/cluster-data)** — Borg cluster traces, including a power-data release.
 - **[alibaba/clusterdata](https://github.com/alibaba/clusterdata)** — Production cluster traces, including GPU cluster releases.
 - **[Azure/AzurePublicDataset](https://github.com/Azure/AzurePublicDataset)** — CC-BY-4.0. Azure VM, function and LLM inference traces.
 - **[msr-fiddle/philly-traces](https://github.com/msr-fiddle/philly-traces)** — CC-BY-4.0. Deep-learning training job traces from a Microsoft cluster.
